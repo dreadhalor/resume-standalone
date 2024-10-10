@@ -1,4 +1,4 @@
-import { cn } from '@repo/utils';
+import { cn } from '@/lib/utils';
 import React from 'react';
 
 export const Card = ({

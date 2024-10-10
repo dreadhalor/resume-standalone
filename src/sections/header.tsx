@@ -1,11 +1,11 @@
-import { Separator } from '@dread-ui/index';
-import ProfilePic from '@resume/assets/profile-pic.webp';
+import { Separator } from '@/components/ui/separator';
+import ProfilePic from '@/assets/profile-pic.webp';
 import { IoMdMailUnread } from 'react-icons/io';
 import { IoPizza } from 'react-icons/io5';
 import { FaPhone, FaGithub, FaCode } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { PiMicrophoneStageFill } from 'react-icons/pi';
-import { Card } from '@resume/card';
+import { Card } from '@/card';
 
 const ContactInfo = () => (
   <div className='text-foreground grid h-min grid-cols-[auto_1fr] items-center gap-x-2 gap-y-1 text-xs'>

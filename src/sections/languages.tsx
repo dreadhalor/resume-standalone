@@ -10,9 +10,9 @@ import {
 } from 'react-icons/fa6';
 import { SiJavascript, SiTypescript, SiCplusplus, SiC } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
-import NoSQLIcon from '@resume/assets/icons/nosql-icon.svg?react';
-import CSharpLogo from '@resume/assets/icons/csharp-logo.svg?react';
-import { Card } from '@resume/card';
+import NoSQLIcon from '@/assets/icons/nosql-icon.svg?react';
+import CSharpLogo from '@/assets/icons/csharp-logo.svg?react';
+import { Card } from '@/card';
 
 interface LanguageItemProps {
   logo: React.FC<{ className: string }>;

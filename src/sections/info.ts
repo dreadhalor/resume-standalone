@@ -1,7 +1,7 @@
-import BroadlumeLogo from '@resume/assets/icons/broadlume-logo.svg?react';
-import StashLogo from '@resume/assets/icons/stash-logo.svg?react';
-import UltraMobileLogo from '@resume/assets/icons/ultra-mobile-logo.svg?react';
-import WestEndDesignsLogo from '@resume/assets/icons/west-end-designs-logo.svg?react';
+import BroadlumeLogo from '@/assets/icons/broadlume-logo.svg?react';
+import StashLogo from '@/assets/icons/stash-logo.svg?react';
+import UltraMobileLogo from '@/assets/icons/ultra-mobile-logo.svg?react';
+import WestEndDesignsLogo from '@/assets/icons/west-end-designs-logo.svg?react';
 
 export const EXPERIENCE = [
   {

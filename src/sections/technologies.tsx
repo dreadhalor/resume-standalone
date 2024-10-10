@@ -1,4 +1,4 @@
-import { Card } from '@resume/card';
+import { Card } from '@/card';
 import { BsStack } from 'react-icons/bs';
 import {
   FaReact,

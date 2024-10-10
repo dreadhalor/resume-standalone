@@ -1,8 +1,8 @@
 import { FaUniversity, FaBook, FaGavel } from 'react-icons/fa';
 import { GiLaurels } from 'react-icons/gi';
-import UCLALogo from '@resume/assets/ucla-logo.svg?react';
+import UCLALogo from '@/assets/ucla-logo.svg?react';
 import React from 'react';
-import { Card } from '@resume/card';
+import { Card } from '@/card';
 
 const EducationGridItem = ({
   title,

@@ -1,4 +1,4 @@
-import { cn } from '@repo/utils';
+import { cn } from '@/lib/utils';
 
 export const Background = ({ className }: { className?: string }) => {
   return (
