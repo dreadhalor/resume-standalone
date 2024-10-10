@@ -1,10 +1,10 @@
-import { Education } from './sections/education';
-import { Header } from './sections/header';
-import { Languages } from './sections/languages';
-import { Experience } from './sections/experience';
-import { Technologies } from './sections/technologies';
-import { Background } from './background';
-import { KnockoutBackground, KnockoutForeground } from './knockout';
+import { Education } from '@/sections/education';
+import { Header } from '@/sections/header';
+import { Languages } from '@/sections/languages';
+import { Experience } from '@/sections/experience';
+import { Technologies } from '@/sections/technologies';
+import { Background } from '@/background';
+import { KnockoutBackground, KnockoutForeground } from '@/knockout';
 
 export const App = () => {
   return (

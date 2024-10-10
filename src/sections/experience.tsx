@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils';
 import { FaBriefcase } from 'react-icons/fa';
 
-import { EXPERIENCE, ExperienceType } from './info';
+import { EXPERIENCE, type ExperienceType } from '@/sections/info';
 import { Card } from '@/card';
 
 interface ExperienceCardProps {
@@ -18,7 +18,7 @@ const ExperienceCard = ({
         <div
           className={cn(
             'flex flex-col text-xs',
-            right && 'col-start-5 items-end'
+            right && 'col-start-5 items-end',
           )}
         >
           <span className='opacity-60'>{dates}</span>
@@ -27,7 +27,7 @@ const ExperienceCard = ({
         <div
           className={cn(
             'col-span-4 flex flex-col gap-1',
-            right && 'row-start-1'
+            right && 'row-start-1',
           )}
         >
           <span className='uppercase'>
